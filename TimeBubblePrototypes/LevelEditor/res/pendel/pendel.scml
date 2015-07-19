@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b6.1">
+    <folder id="0" name="body">
+        <file id="0" name="body/body.png" width="413" height="800" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <folder id="1" name="augen">
+        <file id="0" name="augen/auge normal.png" width="79" height="89" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="augen/pupile normal.png" width="25" height="34" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="augen/pupile rage.png" width="38" height="38" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="augen/auge rage a.png" width="127" height="110" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="augen/auge not bad.png" width="89" height="61" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="augen/auge gekniffen.png" width="50" height="35" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <folder id="2" name="mund">
+        <file id="0" name="mund/mund klappe.png" width="137" height="170" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="mund/mund pft.png" width="91" height="60" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="mund/mund cute.png" width="60" height="58" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="mund/mund rage.png" width="103" height="76" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="mund/mund pissed.png" width="31" height="26" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="mund/mund not bad.png" width="82" height="51" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="mund/mund kreuz.png" width="58" height="56" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="mund/mund gerade.png" width="60" height="33" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="bone_000" type="bone" w="139.191" h="10"/>
+        <obj_info name="bone_001" type="bone" w="43.5221" h="10"/>
+        <obj_info name="bone_002" type="bone" w="14.0599" h="10"/>
+        <obj_info name="bone_003" type="bone" w="49.4906" h="10"/>
+        <obj_info name="bone_004" type="bone" w="22.6654" h="10"/>
+        <obj_info name="bone_005" type="bone" w="12.8556" h="10"/>
+        <animation id="0" name="still" length="1000">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="6" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="7" key="0"/>
+                    <bone_ref id="2" parent="1" timeline="8" key="0"/>
+                    <bone_ref id="3" parent="0" timeline="9" key="0"/>
+                    <bone_ref id="4" parent="3" timeline="10" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="11" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="3" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" parent="2" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" parent="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" parent="5" timeline="5" key="0" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="body">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="320.927459" y="-2.859407" angle="269.721867"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="auge normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="84.031398" y="5.824451" angle="212.171217" scale_x="1.228165"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="auge normal_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="58.573795" y="4.636303" angle="332.241459"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="pupile normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" x="13.041631" y="0.877246" angle="324.782407"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="pupile normal_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" x="21.201704" y="2.385893" angle="203.749494" scale_x="1.228165"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="mund pissed">
+                <key id="0" spin="0">
+                    <object folder="2" file="4" x="7.393041" y="-10.139128" pivot_x="0.484574" pivot_y="0.50563" angle="273.759649"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="5.405405" y="-680.937558" angle="90.278133"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="1" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.646617" y="-11.620829" angle="297.480408"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="2" name="bone_002" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="46.543174" y="-0.062939" angle="7.459052"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="3" name="bone_003" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.062788" y="7.301147" angle="57.55065" scale_x="0.814223"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="4" name="bone_004" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="59.275838" y="3.219429" angle="8.421723"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="5" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="36.528696" y="8.606564" angle="356.70908"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="wtf" length="1000">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="6" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="7" key="0"/>
+                    <bone_ref id="2" parent="1" timeline="8" key="0"/>
+                    <bone_ref id="3" parent="0" timeline="9" key="0"/>
+                    <bone_ref id="4" parent="3" timeline="10" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="11" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="3" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" parent="2" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" parent="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" parent="5" timeline="5" key="0" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="body">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="320.927459" y="-2.859407" angle="269.721867"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="auge normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="4" x="84.031398" y="5.824451" angle="212.171217" scale_x="1.228165"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="auge normal_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="4" x="58.573795" y="4.636303" angle="332.241459"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="pupile normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="2" x="8.77378" y="-6.217911" angle="324.782407"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="pupile normal_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="2" x="15.043949" y="4.377337" angle="203.749494" scale_x="1.228165"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="mund pissed">
+                <key id="0" spin="0">
+                    <object folder="2" file="2" x="-15.362875" y="-4.97097" pivot_x="0.484574" pivot_y="0.50563" angle="273.759649" scale_x="0.668127" scale_y="0.539627"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="5.405405" y="23.648649" angle="90.278133"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="1" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.646617" y="-11.620829" angle="297.480408"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="2" name="bone_002" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="46.543174" y="-0.062939" angle="7.459052"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="3" name="bone_003" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.062788" y="7.301147" angle="57.55065" scale_x="0.814223"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="4" name="bone_004" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="59.275838" y="3.219429" angle="8.421723"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="5" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="36.528696" y="8.606564" angle="356.70908"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="darn u_slow" length="1000">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="5" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="6" key="0"/>
+                    <bone_ref id="2" parent="1" timeline="7" key="0"/>
+                    <bone_ref id="3" parent="0" timeline="8" key="0"/>
+                    <bone_ref id="4" parent="3" timeline="9" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="10" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="3" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" parent="2" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" parent="5" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" parent="4" timeline="11" key="0" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="body">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="320.927459" y="-2.859407" angle="269.721867"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="auge normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="84.031398" y="5.824451" angle="212.171217" scale_x="1.228165"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="auge normal_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="58.573795" y="4.636303" angle="332.241459"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="pupile normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="2" x="10.994844" y="-1.057209" angle="324.782407" scale_x="0.379841" scale_y="0.3509"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="mund pissed">
+                <key id="0" spin="0">
+                    <object folder="2" file="6" x="6.249273" y="-8.123919" pivot_x="0.484574" pivot_y="0.50563" angle="273.759649"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="5.405405" y="-680.937558" angle="90.278133"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="1" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.646617" y="-11.620829" angle="297.480408"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="2" name="bone_002" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="46.543174" y="-0.062939" angle="318.930026"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="3" name="bone_003" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.062788" y="7.301147" angle="57.55065" scale_x="0.814223"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="4" name="bone_004" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="59.275838" y="3.219429" angle="40.7102"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="5" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="36.528696" y="8.606564" angle="356.70908"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="pupile normal_001">
+                <key id="0" spin="0">
+                    <object folder="1" file="2" x="21.466521" y="2.42016" angle="203.749494" scale_x="0.466508" scale_y="0.3509"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="rage_fast" length="1000">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="6" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="7" key="0"/>
+                    <bone_ref id="2" parent="1" timeline="8" key="0"/>
+                    <bone_ref id="3" parent="0" timeline="9" key="0"/>
+                    <bone_ref id="4" parent="3" timeline="10" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="11" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="3" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" parent="2" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" parent="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" parent="5" timeline="5" key="0" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="body">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="320.927459" y="-2.859407" angle="269.721867"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="auge normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="84.031398" y="5.824451" angle="212.171217" scale_x="1.228165"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="auge normal_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="58.573795" y="4.636303" angle="332.241459"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="pupile normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="2" x="11.808084" y="-0.870279" angle="324.782407"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="pupile normal_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="2" x="12.509751" y="7.674758" angle="203.749494" scale_x="1.228165"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="mund pissed">
+                <key id="0" spin="0">
+                    <object folder="2" file="3" x="-13.290275" y="-0.290655" pivot_x="0.484574" pivot_y="0.50563" angle="273.759649"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="5.405405" y="-680.937558" angle="90.278133"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="1" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.646617" y="-11.620829" angle="297.480408"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="2" name="bone_002" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="42.088208" y="-8.527374" angle="7.459052"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="3" name="bone_003" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.062788" y="7.301147" angle="57.55065" scale_x="0.814223"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="4" name="bone_004" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="59.275838" y="3.219429" angle="8.421723"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="5" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="36.528696" y="8.606564" angle="356.70908"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="pft_kill" length="1000">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="6" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="7" key="0"/>
+                    <bone_ref id="2" parent="1" timeline="8" key="0"/>
+                    <bone_ref id="3" parent="0" timeline="9" key="0"/>
+                    <bone_ref id="4" parent="3" timeline="10" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="11" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="3" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" parent="2" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" parent="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" parent="5" timeline="5" key="0" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="body">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="320.927459" y="-2.859407" angle="269.721867"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="auge normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="4" x="84.031398" y="5.824451" angle="212.171217" scale_x="1.228165"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="auge normal_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="4" x="58.573795" y="4.636303" angle="332.241459"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="pupile normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" x="13.041631" y="0.877246" angle="324.782407"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="pupile normal_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" x="21.201704" y="2.385893" angle="203.749494" scale_x="1.228165"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="mund pissed">
+                <key id="0" spin="0">
+                    <object folder="2" file="1" x="7.20533" y="-6.572636" pivot_x="0.484574" pivot_y="0.50563" angle="273.759649"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="5.405405" y="-680.937558" angle="90.278133"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="1" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.646617" y="-11.620829" angle="297.480408"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="2" name="bone_002" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="46.543174" y="-0.062939" angle="7.459052"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="3" name="bone_003" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.062788" y="7.301147" angle="57.55065" scale_x="0.814223"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="4" name="bone_004" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="59.275838" y="3.219429" angle="8.421723"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="5" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="36.528696" y="8.606564" angle="356.70908"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="pft_ko_kill_2" length="1000">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="4" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="5" key="0"/>
+                    <bone_ref id="2" parent="1" timeline="6" key="0"/>
+                    <bone_ref id="3" parent="0" timeline="7" key="0"/>
+                    <bone_ref id="4" parent="3" timeline="8" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="9" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="3" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" parent="5" timeline="3" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="body">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="320.927459" y="-2.859407" angle="269.721867"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="auge normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="5" x="77.544972" y="-0.606639" angle="212.171217" scale_x="-1.835795" scale_y="1.559771"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="auge normal_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="5" x="58.573795" y="4.636303" angle="332.241459" scale_x="1.359272" scale_y="1.538601"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="mund pissed">
+                <key id="0" spin="0">
+                    <object folder="2" file="1" x="7.20533" y="-6.572636" pivot_x="0.484574" pivot_y="0.50563" angle="273.759649"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="5.405405" y="-680.937558" angle="90.278133"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="1" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.646617" y="-11.620829" angle="297.480408"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="2" name="bone_002" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="46.543174" y="-0.062939" angle="7.459052"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="3" name="bone_003" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.062788" y="7.301147" angle="57.55065" scale_x="0.814223"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="4" name="bone_004" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="59.275838" y="3.219429" angle="73.766699"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="5" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="36.528696" y="8.606564" angle="356.70908"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="6" name="not bad_escape" length="1000">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="6" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="7" key="0"/>
+                    <bone_ref id="2" parent="1" timeline="8" key="0"/>
+                    <bone_ref id="3" parent="0" timeline="9" key="0"/>
+                    <bone_ref id="4" parent="3" timeline="10" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="11" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="3" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" parent="2" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" parent="4" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" parent="5" timeline="5" key="0" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="body">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="320.927459" y="-2.859407" angle="269.721867"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="auge normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="4" x="84.031398" y="5.824451" angle="212.171217" scale_x="1.228165"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="auge normal_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="4" x="58.573795" y="4.636303" angle="332.241459"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="pupile normal">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" x="13.041631" y="0.877246" angle="324.782407"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="pupile normal_000">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" x="21.201704" y="2.385893" angle="203.749494" scale_x="1.228165"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="mund pissed">
+                <key id="0" spin="0">
+                    <object folder="2" file="5" x="0.042155" y="-3.523331" pivot_x="0.484574" pivot_y="0.50563" angle="273.759649"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="5.405405" y="-680.937558" angle="90.278133"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="1" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.646617" y="-11.620829" angle="297.480408"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="2" name="bone_002" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="46.543174" y="-0.062939" angle="7.459052"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="3" name="bone_003" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="27.062788" y="7.301147" angle="57.55065" scale_x="0.814223"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="4" name="bone_004" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="59.275838" y="3.219429" angle="8.421723"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="5" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="36.528696" y="8.606564" angle="356.70908"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b6.1">
+    <folder id="0" name="ref">
+        <file id="0" name="ref/reference_1.jpg" width="256" height="540" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="oberkoerper">
+        <file id="0" name="oberkoerper/koerper.png" width="115" height="185" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="oberkoerper/schal.png" width="131" height="199" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="oberkoerper/mantel_2.png" width="230" height="250" pivot_x="0.896552" pivot_y="0.876984"/>
+        <file id="3" name="oberkoerper/mantel_3.png" width="195" height="300" pivot_x="0.426396" pivot_y="0.950331"/>
+        <file id="4" name="oberkoerper/mantel_1.png" width="113" height="263" pivot_x="0.826087" pivot_y="0.962264"/>
+    </folder>
+    <folder id="2" name="kopf">
+        <file id="0" name="kopf/hals.png" width="42" height="60" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="kopf/kopf.png" width="185" height="208" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <folder id="3" name="bein">
+        <file id="0" name="bein/oberschenkel_l.png" width="69" height="120" pivot_x="0.577465" pivot_y="0.778689"/>
+        <file id="1" name="bein/bein_l.png" width="43" height="88" pivot_x="0.644444" pivot_y="0.866667"/>
+        <file id="2" name="bein/fuss_l.png" width="56" height="40" pivot_x="0.206897" pivot_y="0.785714"/>
+        <file id="3" name="bein/oberschenkel_r.png" width="74" height="124" pivot_x="0.407895" pivot_y="0.801587"/>
+        <file id="4" name="bein/bein_r.png" width="32" height="97" pivot_x="0.529412" pivot_y="0.888889"/>
+        <file id="5" name="bein/fuss_r.png" width="57" height="34" pivot_x="0.186441" pivot_y="0.666667"/>
+    </folder>
+    <folder id="4" name="arm">
+        <file id="0" name="arm/schulter_r.png" width="56" height="100" pivot_x="0.448276" pivot_y="0.77451"/>
+        <file id="1" name="arm/schulter_l.png" width="47" height="97" pivot_x="0.469388" pivot_y="0.787879"/>
+        <file id="2" name="arm/arm_r.png" width="35" height="49" pivot_x="0.378378" pivot_y="0.844444"/>
+        <file id="3" name="arm/hand_r.png" width="45" height="55" pivot_x="0.382979" pivot_y="0.807018"/>
+        <file id="4" name="arm/hand_l.png" width="40" height="49" pivot_x="0.380952" pivot_y="0.72549"/>
+        <file id="5" name="arm/arm_l.png" width="36" height="43" pivot_x="0.368421" pivot_y="0.844444"/>
+        <file id="6" name="arm/hand gun grip.png" width="68" height="50" pivot_x="0.2" pivot_y="0.480769"/>
+        <file id="7" name="arm/hand stab grip.png" width="62" height="39" pivot_x="0.21875" pivot_y="0.463415"/>
+        <file id="8" name="arm/gun stab grip.png" width="62" height="39" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="5" name="waffen">
+        <file id="0" name="waffen/character-final_0000_Ebene-1.png" width="60" height="251" pivot_x="0.548387" pivot_y="0.312253"/>
+        <file id="1" name="waffen/gun.png" width="128" height="70" pivot_x="0.696682" pivot_y="0.578947"/>
+    </folder>
+    <entity id="0" name="player">
+        <obj_info name="bone_arm_r_1" type="bone" w="74.9103" h="10"/>
+        <obj_info name="bone_arm_r_2" type="bone" w="35.4053" h="10"/>
+        <obj_info name="bone_hand_r" type="bone" w="40.3398" h="10"/>
+        <animation id="0" name="idle" length="500" looping="false">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="3" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="4" key="0"/>
+                    <bone_ref id="2" parent="1" timeline="5" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="6" key="0" z_index="2"/>
+                    <object_ref id="3" parent="2" timeline="2" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="schulter_r">
+                <key id="0" spin="0">
+                    <object folder="4" file="0" x="8.913441" y="1.118266" angle="85.532841" scale_x="1.030739"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="arm_r">
+                <key id="0" spin="0">
+                    <object folder="4" file="2" x="5.836115" y="-2.866405" angle="78.291668" scale_x="1.03074"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="hand_r">
+                <key id="0" spin="0">
+                    <object folder="4" file="8" x="-1.757305" y="16.59085" angle="355.811802"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="0" name="bone_arm_r_1" object_type="bone">
+                <key id="0" spin="0">
+                    <bone angle="244.007723" scale_x="0.970178"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="1" name="bone_arm_r_2" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="73.111788" y="0.108346" angle="359.981498"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="2" name="bone_hand_r" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="34.927631" y="-0.772555" angle="24.866209" scale_x="1.03074"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="character-final_0000_Ebene-1">
+                <key id="0" spin="0">
+                    <object folder="5" file="0" x="53.582691" y="34.062968" angle="337.245803" scale_x="0.999999"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="stab_charge" length="500" looping="false">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="3" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="4" key="0"/>
+                    <bone_ref id="2" parent="1" timeline="5" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="6" key="0" z_index="2"/>
+                    <object_ref id="3" parent="2" timeline="2" key="0" z_index="3"/>
+                </key>
+                <key id="1" time="169">
+                    <bone_ref id="0" timeline="3" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="4" key="1"/>
+                    <bone_ref id="2" parent="1" timeline="5" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" parent="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="6" key="1" z_index="2"/>
+                    <object_ref id="3" parent="2" timeline="2" key="1" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="schulter_r">
+                <key id="0" spin="0">
+                    <object folder="4" file="0" x="8.913441" y="1.118266" angle="85.532841" scale_x="1.030739"/>
+                </key>
+                <key id="1" time="169" spin="0">
+                    <object folder="4" file="0" x="8.913441" y="1.118266" angle="85.532841" scale_x="1.030739"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="arm_r">
+                <key id="0" spin="0">
+                    <object folder="4" file="2" x="5.836115" y="-2.866405" angle="78.291668" scale_x="1.03074"/>
+                </key>
+                <key id="1" time="169" spin="0">
+                    <object folder="4" file="2" x="5.836115" y="-2.866405" angle="78.291668" scale_x="1.03074"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="hand_r">
+                <key id="0" spin="0">
+                    <object folder="4" file="8" x="-1.757305" y="16.59085" angle="355.811802"/>
+                </key>
+                <key id="1" time="169" spin="0">
+                    <object folder="4" file="8" x="-1.757305" y="16.59085" angle="355.811802"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="0" name="bone_arm_r_1" object_type="bone">
+                <key id="0">
+                    <bone angle="244.007723" scale_x="0.970178"/>
+                </key>
+                <key id="1" time="169" spin="-1">
+                    <bone angle="352.970926" scale_x="0.970178"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="1" name="bone_arm_r_2" object_type="bone">
+                <key id="0">
+                    <bone x="73.111788" y="0.108346" angle="359.981498"/>
+                </key>
+                <key id="1" time="169" spin="-1">
+                    <bone x="73.111788" y="0.108346" angle="52.96649"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="2" name="bone_hand_r" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="34.927631" y="-0.772555" angle="24.866209" scale_x="1.03074"/>
+                </key>
+                <key id="1" time="169" spin="0">
+                    <bone x="34.927631" y="-0.772555" angle="24.866209" scale_x="1.03074"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="character-final_0000_Ebene-1">
+                <key id="0">
+                    <object folder="5" file="0" x="53.582691" y="34.062968" angle="337.245803" scale_x="0.999999"/>
+                </key>
+                <key id="1" time="169" spin="-1">
+                    <object folder="5" file="0" x="46.272276" y="39.518029" angle="352.144955" scale_x="0.999999"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="stab_attack" length="500" looping="false">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="3" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="4" key="0"/>
+                    <bone_ref id="2" parent="1" timeline="5" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="6" key="0" z_index="2"/>
+                    <object_ref id="3" parent="2" timeline="2" key="0" z_index="3"/>
+                </key>
+                <key id="1" time="206">
+                    <bone_ref id="0" timeline="3" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="4" key="1"/>
+                    <bone_ref id="2" parent="1" timeline="5" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" parent="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" parent="2" timeline="6" key="1" z_index="2"/>
+                    <object_ref id="3" parent="2" timeline="2" key="1" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="schulter_r">
+                <key id="0" spin="0">
+                    <object folder="4" file="0" x="8.913441" y="1.118266" angle="85.532841" scale_x="1.030739"/>
+                </key>
+                <key id="1" time="206" spin="0">
+                    <object folder="4" file="0" x="8.913441" y="1.118266" angle="85.532841" scale_x="1.030739"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="arm_r">
+                <key id="0" spin="0">
+                    <object folder="4" file="2" x="5.836115" y="-2.866405" angle="78.291668" scale_x="1.03074"/>
+                </key>
+                <key id="1" time="206" spin="0">
+                    <object folder="4" file="2" x="5.836115" y="-2.866405" angle="78.291668" scale_x="1.03074"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="hand_r">
+                <key id="0" spin="0">
+                    <object folder="4" file="8" x="-1.757305" y="16.59085" angle="355.811802"/>
+                </key>
+                <key id="1" time="206" spin="0">
+                    <object folder="4" file="8" x="-1.757305" y="16.59085" angle="355.811802"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="0" name="bone_arm_r_1" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone angle="352.970926" scale_x="0.970178"/>
+                </key>
+                <key id="1" time="206">
+                    <bone angle="244.007723" scale_x="0.970178"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="1" name="bone_arm_r_2" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="73.111788" y="0.108346" angle="52.96649"/>
+                </key>
+                <key id="1" time="206">
+                    <bone x="73.111788" y="0.108346" angle="359.981498"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="2" name="bone_hand_r" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="34.927631" y="-0.772555" angle="24.866209" scale_x="1.03074"/>
+                </key>
+                <key id="1" time="206" spin="0">
+                    <bone x="34.927631" y="-0.772555" angle="24.866209" scale_x="1.03074"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="character-final_0000_Ebene-1">
+                <key id="0" spin="-1">
+                    <object folder="5" file="0" x="46.272276" y="39.518029" angle="352.144955" scale_x="0.999999"/>
+                </key>
+                <key id="1" time="206">
+                    <object folder="5" file="0" x="53.582691" y="34.062968" angle="337.245803" scale_x="0.999999"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

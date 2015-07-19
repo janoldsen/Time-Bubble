@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b6.1">
+    <folder id="0">
+        <file id="0" name="start buttuo.png" width="50" height="50" pivot_x="0.442308" pivot_y="0.5"/>
+        <file id="1" name="quit button.png" width="50" height="50" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="option button.png" width="50" height="50" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="load button.png" width="50" height="50" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="world0_grey.png" width="150" height="100" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="5" name="world0.png" width="150" height="100" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="small screen.png" width="50" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="world1.png" width="150" height="100" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="8" name="world1_grey.png" width="150" height="100" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="9" name="world2.png" width="150" height="100" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="10" name="world2_grey.png" width="150" height="100" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="play_buttom_still" length="1000" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="world0_grey">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="world0_grey_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-153"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="world2_grey">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="153"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="play_buttom_big" length="210" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="210">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="world0">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" angle="0"/>
+                </key>
+                <key id="1" time="210" spin="0">
+                    <object folder="0" file="7" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="world0_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-153"/>
+                </key>
+                <key id="1" time="210" spin="0">
+                    <object folder="0" file="5" x="-229.5" scale_x="1.5" scale_y="1.5"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="world2">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="153"/>
+                </key>
+                <key id="1" time="210" spin="0">
+                    <object folder="0" file="9" x="229.5" scale_x="1.5" scale_y="1.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="play_buttom_small" length="1000" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="210">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="start buttuo">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" y="0.79" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="1" time="210" spin="0">
+                    <object folder="0" file="8" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="world2_grey_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="229.5" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="1" time="210" spin="0">
+                    <object folder="0" file="10" x="153"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="world0_grey_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-229.5" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="1" time="210" spin="0">
+                    <object folder="0" file="4" x="-153"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

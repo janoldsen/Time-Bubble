@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ImageManager.cpp" />
+    <ClCompile Include="AnimationComponent.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Prototype.cpp" />
+    <ClCompile Include="RendererComponent.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="ObjectIterator.cpp" />
+    <ClCompile Include="ContactListener.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="GameClock.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="BodyComponent.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="myMath.cpp" />
+    <ClCompile Include="BackGroundObject.cpp" />
+    <ClCompile Include="BgObjectContainer.cpp" />
+    <ClCompile Include="ObjectContainer.cpp" />
+    <ClCompile Include="TimeBubbleComponent.cpp">
+      <Filter>AiComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="SwingComponent.cpp">
+      <Filter>AiComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComponent.cpp">
+      <Filter>AiComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="PlattformComponent.cpp">
+      <Filter>AiComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="JumperComponent.cpp">
+      <Filter>AiComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="EventComponent.cpp">
+      <Filter>AiComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="AiComponent.cpp">
+      <Filter>AiComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteComponent.cpp" />
+    <ClCompile Include="SCMLComponent.cpp" />
+    <ClCompile Include="SCML_SFML.cpp">
+      <Filter>scml</Filter>
+    </ClCompile>
+    <ClCompile Include="SCMLpp.cpp">
+      <Filter>scml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>scml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>scml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>scml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>scml</Filter>
+    </ClCompile>
+    <ClCompile Include="XML_Helpers.cpp">
+      <Filter>scml</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyComponent.cpp">
+      <Filter>AiComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="ShroomComponent.cpp">
+      <Filter>AiComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp" />
+    <ClCompile Include="ParticleComponent.cpp">
+      <Filter>AiComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEmitter.cpp" />
+    <ClCompile Include="RockComponent.cpp">
+      <Filter>AiComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="BombComponent.cpp">
+      <Filter>AiComponents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageManager.h" />
+    <ClInclude Include="RendererComponent.h" />
+    <ClInclude Include="AnimationComponent.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Prototype.h" />
+    <ClInclude Include="ObjectContainer.h" />
+    <ClInclude Include="ObjectIterator.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="GameClock.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="ContactListener.h" />
+    <ClInclude Include="BodyComponent.h" />
+    <ClInclude Include="myMath.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="BackGroundObject.h" />
+    <ClInclude Include="BgObjectContainer.h" />
+    <ClInclude Include="TimeBubbleComponent.h">
+      <Filter>AiComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SwingComponent.h">
+      <Filter>AiComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerComponent.h">
+      <Filter>AiComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlattformComponent.h">
+      <Filter>AiComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="JumperComponent.h">
+      <Filter>AiComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="EventComponent.h">
+      <Filter>AiComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="AiComponent.h">
+      <Filter>AiComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h" />
+    <ClInclude Include="SCMLComponent.h" />
+    <ClInclude Include="SCML_SFML.h">
+      <Filter>scml</Filter>
+    </ClInclude>
+    <ClInclude Include="SCMLpp.h">
+      <Filter>scml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>scml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>scml</Filter>
+    </ClInclude>
+    <ClInclude Include="XML_Helpers.h">
+      <Filter>scml</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyComponent.h">
+      <Filter>AiComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCastListener.h" />
+    <ClInclude Include="ShroomComponent.h">
+      <Filter>AiComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h" />
+    <ClInclude Include="ParticleComponent.h">
+      <Filter>AiComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmitter.h" />
+    <ClInclude Include="RockComponent.h">
+      <Filter>AiComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="BombComponent.h">
+      <Filter>AiComponents</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AiComponents">
+      <UniqueIdentifier>{b0e27df1-d209-4c15-99f1-14662f5e8bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scml">
+      <UniqueIdentifier>{d6870050-b0ba-4407-b285-506f8029b1f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

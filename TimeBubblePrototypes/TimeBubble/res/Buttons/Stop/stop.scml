@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b6.1">
+    <folder id="0">
+        <file id="0" name="stop0.png" width="200" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="stop.png" width="200" height="50" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="stop0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-100" y="25"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="NewAnimation_000" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="stop0">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-100" y="25"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="NewAnimation_001" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="stop0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-100" y="25"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b6.1">
+    <folder id="0">
+        <file id="0" name="start buttuo.png" width="50" height="50" pivot_x="0.442308" pivot_y="0.5"/>
+        <file id="1" name="quit button.png" width="50" height="50" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="option button.png" width="50" height="50" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="load button.png" width="50" height="50" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="small screen.png" width="50" height="50" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="normal" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="small screen">
+                <key id="0" spin="0">
+                    <object folder="0" file="4"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="groß" length="1000" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="small screen">
+                <key id="0" spin="0">
+                    <object folder="0" file="4"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="4" scale_x="1.590566" scale_y="1.590566"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="klein" length="1000" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="491">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="small screen">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" scale_x="1.590566" scale_y="1.590566"/>
+                </key>
+                <key id="1" time="491" spin="0">
+                    <object folder="0" file="4"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

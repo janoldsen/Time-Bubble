@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b6.1">
+    <folder id="0">
+        <file id="0" name="level_base.png" width="50" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="level_handle.png" width="50" height="50" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="level_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-25.503339" y="49.83997"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="level_handle">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.839006" y="9.303566" pivot_x="0.524552" pivot_y="0.177436" angle="45" scale_x="1"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="NewAnimation_000" length="1000" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="level_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-25.503339" y="49.83997"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="0" x="-25.503339" y="49.83997"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="level_handle">
+                <key id="0" spin="-1">
+                    <object folder="0" file="1" x="0.839006" y="9.303566" pivot_x="0.524552" pivot_y="0.177436" angle="45" scale_x="1"/>
+                </key>
+                <key id="1" time="500">
+                    <object folder="0" file="1" x="0.839006" y="9.303566" pivot_x="0.524552" pivot_y="0.177436" angle="315" scale_x="1"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="NewAnimation_001" length="1000" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="level_base">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-25.503339" y="49.83997"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="0" x="-25.503339" y="49.83997"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="level_handle">
+                <key id="0">
+                    <object folder="0" file="1" x="0.839006" y="9.303566" pivot_x="0.524552" pivot_y="0.177436" angle="315" scale_x="1"/>
+                </key>
+                <key id="1" time="500" spin="-1">
+                    <object folder="0" file="1" x="0.839006" y="9.303566" pivot_x="0.524552" pivot_y="0.177436" angle="45" scale_x="1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

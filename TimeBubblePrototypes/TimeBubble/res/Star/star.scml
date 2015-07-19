@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b6.1">
+    <folder id="0">
+        <file id="0" name="star.png" width="500" height="500" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="star">
+        <animation id="0" name="idle" length="3000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="1467">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="3000">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="star">
+                <key id="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+                <key id="1" time="1467">
+                    <object folder="0" file="0" y="100" angle="180"/>
+                </key>
+                <key id="2" time="3000">
+                    <object folder="0" file="0" angle="359"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="pick" length="1000" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="180">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="1000">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="star">
+                <key id="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+                <key id="1" time="180">
+                    <object folder="0" file="0" y="120.37037" angle="33.333333" scale_x="2" scale_y="2" a="0.814815"/>
+                </key>
+                <key id="2" time="1000" spin="-1">
+                    <object folder="0" file="0" y="650" angle="180" scale_x="0.00001" scale_y="0.00001" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

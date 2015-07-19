@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="LevelEditor.cpp" />
+    <ClCompile Include="LevelObject.cpp" />
+    <ClCompile Include="EditorLevel.cpp" />
+    <ClCompile Include="Selector.cpp" />
+    <ClCompile Include="Selection.cpp" />
+    <ClCompile Include="SelectionObject.cpp" />
+    <ClCompile Include="PropertyBox.cpp" />
+    <ClCompile Include="PropertyBoxLevel.cpp" />
+    <ClCompile Include="PropertyBoxSegment.cpp" />
+    <ClCompile Include="SelectionVertex.cpp" />
+    <ClCompile Include="SelectionLevel.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="PropertyBoxObject.cpp" />
+    <ClCompile Include="PropertyBoxAi.cpp" />
+    <ClCompile Include="SelectionCamera.cpp" />
+    <ClCompile Include="PropertyBoxCamera.cpp" />
+    <ClCompile Include="SelectionBgObject.cpp" />
+    <ClCompile Include="PropertyBoxBgObject.cpp" />
+    <ClCompile Include="PropertyBoxRenderer.cpp" />
+    <ClCompile Include="PropertyBoxBody.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LevelEditor.h" />
+    <ClInclude Include="LevelObject.h" />
+    <ClInclude Include="EditorLevel.h" />
+    <ClInclude Include="Selector.h" />
+    <ClInclude Include="Selection.h" />
+    <ClInclude Include="SelectionObject.h" />
+    <ClInclude Include="PropertyBox.h" />
+    <ClInclude Include="PropertyBoxLevel.h" />
+    <ClInclude Include="PropertyBoxSegment.h" />
+    <ClInclude Include="SelectionVertex.h" />
+    <ClInclude Include="SelectionLevel.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="dirent.h" />
+    <ClInclude Include="PropertyBoxObject.h" />
+    <ClInclude Include="PropertyBoxAi.h" />
+    <ClInclude Include="SelectionCamera.h" />
+    <ClInclude Include="PropertyBoxCamera.h" />
+    <ClInclude Include="SelectionBgObject.h" />
+    <ClInclude Include="PropertyBoxBgObject.h" />
+    <ClInclude Include="PropertyBoxRenderer.h" />
+    <ClInclude Include="PropertyBoxBody.h" />
+  </ItemGroup>
+</Project>

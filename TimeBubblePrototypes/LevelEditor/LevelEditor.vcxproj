@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B9E3D9E1-172F-4E4E-AD3B-37D53AE72284}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LevelEditor</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(Configuration)\TEMP</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(Configuration)\TEMP</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Middleware\SFML-2.1\include;$(ProjectDir)..\Middleware\Box2d\include;$(SolutionDir)\TimeBubbleLib\;$(SolutionDir)\Middleware\SFGUI\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\Middleware\SFML-2.1\lib;$(ProjectDir)..\Middleware\Box2d\lib;$(SolutionDir)\Middleware\SFGUI\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;Box2d-d.lib;sfgui-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Middleware\SFML-2.1\include;$(ProjectDir)..\Middleware\Box2d\include;$(SolutionDir)\TimeBubbleLib\;$(SolutionDir)\Middleware\SFGUI\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\Middleware\SFML-2.1\lib;$(ProjectDir)..\Middleware\Box2d\lib;$(SolutionDir)Middleware\SFGUI\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;Box2d.lib;sfgui.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="EditorLevel.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="LevelEditor.cpp" />
+    <ClCompile Include="LevelObject.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PropertyBox.cpp" />
+    <ClCompile Include="PropertyBoxAi.cpp" />
+    <ClCompile Include="PropertyBoxBgObject.cpp" />
+    <ClCompile Include="PropertyBoxBody.cpp" />
+    <ClCompile Include="PropertyBoxCamera.cpp" />
+    <ClCompile Include="PropertyBoxLevel.cpp" />
+    <ClCompile Include="PropertyBoxObject.cpp" />
+    <ClCompile Include="PropertyBoxRenderer.cpp" />
+    <ClCompile Include="PropertyBoxSegment.cpp" />
+    <ClCompile Include="Selection.cpp" />
+    <ClCompile Include="SelectionBgObject.cpp" />
+    <ClCompile Include="SelectionCamera.cpp" />
+    <ClCompile Include="SelectionLevel.cpp" />
+    <ClCompile Include="SelectionVertex.cpp" />
+    <ClCompile Include="SelectionObject.cpp" />
+    <ClCompile Include="Selector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimeBubbleLib\TimeBubbleLib.vcxproj">
+      <Project>{40bdfb7f-c830-49cc-a193-5e0894467d6a}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dirent.h" />
+    <ClInclude Include="EditorLevel.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="LevelEditor.h" />
+    <ClInclude Include="LevelObject.h" />
+    <ClInclude Include="PropertyBox.h" />
+    <ClInclude Include="PropertyBoxAi.h" />
+    <ClInclude Include="PropertyBoxBgObject.h" />
+    <ClInclude Include="PropertyBoxBody.h" />
+    <ClInclude Include="PropertyBoxCamera.h" />
+    <ClInclude Include="PropertyBoxLevel.h" />
+    <ClInclude Include="PropertyBoxObject.h" />
+    <ClInclude Include="PropertyBoxRenderer.h" />
+    <ClInclude Include="PropertyBoxSegment.h" />
+    <ClInclude Include="Selection.h" />
+    <ClInclude Include="SelectionBgObject.h" />
+    <ClInclude Include="SelectionCamera.h" />
+    <ClInclude Include="SelectionLevel.h" />
+    <ClInclude Include="SelectionVertex.h" />
+    <ClInclude Include="SelectionObject.h" />
+    <ClInclude Include="Selector.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

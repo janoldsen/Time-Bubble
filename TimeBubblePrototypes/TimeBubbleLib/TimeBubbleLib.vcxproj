@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AiComponent.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AnimationComponent.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="BackGroundObject.cpp" />
+    <ClCompile Include="BgObjectContainer.cpp" />
+    <ClCompile Include="BodyComponent.cpp" />
+    <ClCompile Include="BombComponent.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="ContactListener.cpp" />
+    <ClCompile Include="EnemyComponent.cpp" />
+    <ClCompile Include="EventComponent.cpp" />
+    <ClCompile Include="GameClock.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="ImageManager.cpp" />
+    <ClCompile Include="JumperComponent.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="myMath.cpp" />
+    <ClCompile Include="ObjectContainer.cpp" />
+    <ClCompile Include="ObjectIterator.cpp" />
+    <ClCompile Include="ParticleComponent.cpp" />
+    <ClCompile Include="ParticleEmitter.cpp" />
+    <ClCompile Include="ParticleManager.cpp" />
+    <ClCompile Include="PlattformComponent.cpp" />
+    <ClCompile Include="PlayerComponent.cpp" />
+    <ClCompile Include="Prototype.cpp" />
+    <ClCompile Include="RendererComponent.cpp" />
+    <ClCompile Include="RockComponent.cpp" />
+    <ClCompile Include="SCMLComponent.cpp" />
+    <ClCompile Include="SCMLpp.cpp" />
+    <ClCompile Include="SCML_SFML.cpp" />
+    <ClCompile Include="ShroomComponent.cpp" />
+    <ClCompile Include="SpriteComponent.cpp" />
+    <ClCompile Include="SwingComponent.cpp" />
+    <ClCompile Include="TimeBubbleComponent.cpp" />
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+    <ClCompile Include="XML_Helpers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AiComponent.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimationComponent.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="BackGroundObject.h" />
+    <ClInclude Include="BgObjectContainer.h" />
+    <ClInclude Include="BodyComponent.h" />
+    <ClInclude Include="BombComponent.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="ContactListener.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="EnemyComponent.h" />
+    <ClInclude Include="EventComponent.h" />
+    <ClInclude Include="GameClock.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="ImageManager.h" />
+    <ClInclude Include="JumperComponent.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="myMath.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="ObjectContainer.h" />
+    <ClInclude Include="ObjectIterator.h" />
+    <ClInclude Include="ParticleComponent.h" />
+    <ClInclude Include="ParticleEmitter.h" />
+    <ClInclude Include="ParticleManager.h" />
+    <ClInclude Include="PlattformComponent.h" />
+    <ClInclude Include="PlayerComponent.h" />
+    <ClInclude Include="Prototype.h" />
+    <ClInclude Include="RayCastListener.h" />
+    <ClInclude Include="RendererComponent.h" />
+    <ClInclude Include="RockComponent.h" />
+    <ClInclude Include="SCMLComponent.h" />
+    <ClInclude Include="SCMLpp.h" />
+    <ClInclude Include="SCML_SFML.h" />
+    <ClInclude Include="ShroomComponent.h" />
+    <ClInclude Include="SpriteComponent.h" />
+    <ClInclude Include="SwingComponent.h" />
+    <ClInclude Include="TimeBubbleComponent.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="XML_Helpers.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{40BDFB7F-C830-49CC-A193-5E0894467D6A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TimeBubbleLib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(Configuration)\TEMP\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(Configuration)\Temp</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Middleware\SFML-2.1\include;$(SolutionDir)Middleware\Box2d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)Middleware\SFML-2.1\lib\;$(SolutionDir)Middleware\Box2d\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-audio-d.lib;Box2d-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Middleware\SFML-2.1\include;$(SolutionDir)Middleware\Box2d\include;$(SolutionDir)Middleware\SCML\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)Middleware\SFML-2.1\lib\;$(SolutionDir)Middleware\Box2d\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-audio.lib;Box2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

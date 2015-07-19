@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b6.1">
+    <folder id="0">
+        <file id="0" name="start buttuo.png" width="50" height="50" pivot_x="0.442308" pivot_y="0.5"/>
+        <file id="1" name="quit button.png" width="50" height="50" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="option button.png" width="50" height="50" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="load button.png" width="50" height="50" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="quite_button_animation" length="1000" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="quit button">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.527426" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="quite_button_animation_001" length="1000" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="325">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="quit button">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.527426" angle="0"/>
+                </key>
+                <key id="1" time="325" spin="0">
+                    <object folder="0" file="1" x="0.527426" angle="0" scale_x="1.469513" scale_y="1.333333"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="quite_button_animation_000" length="1000" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="320">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="quit button">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.527426" angle="0" scale_x="1.469513" scale_y="1.333333"/>
+                </key>
+                <key id="1" time="320" spin="0">
+                    <object folder="0" file="1" x="0.527426" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

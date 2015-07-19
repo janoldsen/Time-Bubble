@@ -1,0 +1,51 @@
+Alt + (Drag) Left Mouse Button = Create & Transform Bones
+
+(Hold) B (While Bone is Selected) = Select Toggle Bone Children
+
+(Hold) Ctrl (While Bone is Selected) = View Resize Controls for Bones
+
+(Drag) Middle Mouse Button <<or>> (Hold) Spacebar + (Drag) Left Mouse Button = Pan View in Canvas
+
+(Hold) Ctrl + Mouse Wheel (While in Work Area) = Quick Zoom in Canvas
+
+(Hold) Ctrl + Mouse Wheel (While in Timeline\Hierarchy\Z-order\File Palette\Object Palette) = Zoom
+
+Ctrl + Space (In) >>&<< Ctrl + Alt + Space (Out) = Zoom (for when using a Stylus, Trackball, or Mouse w/o Wheel)
+
+Ctrl + Alt + Space = Restore Zoom to 100%
+
+Ctrl + Up\Down (While a Single Sprite Selected) = Move Selected Sprite Up\Down One Position in the Z-order
+
+Ctrl + Left\Right (While a Single Sprite Selected) = Move Selected Sprite to the Bottom\Top of the Z-order
+
+(Hold) Shift (While Copying) = Copy an Entire Frame (Even if Tweened Between Keyframes)
+
+(Hold) Shift (While Pasting) = Paste to All Frames (If Objects are Parented on the Copied Frame, they will Paste to the Parents on the Other Frames)
+
+(Hold) Shift (While Deleting) = Delete From All Frames
+
+(Hold) Shift (While Reparenting) = Reparent on All Frames
+
+(Hold) Ctrl (While you Drag, Rotate, Resize, or Apply IK to an Object or Group of Objects) = Clone (Clones will Retain Relative Parenting & Z-order to one another & will be Parented to the Original Parents if they were not Cloned)
+
+Z = Select all Descendent Sprites and Bones of the Current Selection (i.e. Select Shoulder Bone, Tap Z, it will Select the Upperarm Bone, and Forearm Bone, and All Sprites for All 3 Bones)
+
+Arrow Keys (While Object is Selected) = Nudge Object 1 Pixel in Pressed Direction
+
+1 = Go to Previous Keyframe
+
+2 = Go to Next Keyframe
+
+3 = Rewind to Start
+
+4 = Play
+
+5 = Fast Forward to End
+
+7 = Toggle Show Bones
+
+8 = Toggle Lock Bones
+
+9 = Toggle Show Sprites
+
+0 = Toggle Lock Sprites
